@@ -36,60 +36,10 @@ const Mentorship = () => {
 
   return (
     <Layout>
-      <PageHeader 
-        title="Micro Mentorship Program" 
+      <PageHeader
+        title="Micro Mentorship Program"
         subtitle="One-month focused mentorship to accelerate your blockchain journey"
       />
-
-      {/* Program Overview */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4 md:px-6">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl font-bold mb-6">Program Overview</h2>
-              <div className="prose prose-lg max-w-none">
-                <p className="mb-4">
-                  The Satoshi Fan Club Micro Mentorship Program connects blockchain enthusiasts with experienced professionals for focused, one-month mentorship experiences. Our program is designed to provide targeted guidance on specific topics, helping you overcome challenges and accelerate your learning.
-                </p>
-                <p className="mb-4">
-                  Whether you're looking to understand blockchain fundamentals, explore specific technologies, or gain insights into career opportunities in the Web3 space, our program pairs you with a mentor who can provide personalized guidance based on your goals.
-                </p>
-                <p>
-                  Unlike traditional long-term mentorship programs, our micro mentorship format allows for focused, time-bound engagement that respects both mentors' and mentees' time commitments while still delivering significant value.
-                </p>
-              </div>
-              
-              <div className="mt-8">
-                <a 
-                  href="https://www.jotform.com" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="inline-block"
-                >
-                  <SatoshiButton>Apply for Mentorship</SatoshiButton>
-                </a>
-              </div>
-            </div>
-            <div className="order-first md:order-last">
-              <Card className="overflow-hidden shadow-lg">
-                <div className="aspect-video bg-gray-100 relative">
-                  <img 
-                    src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&q=80&w=800"
-                    alt="Mentorship Program" 
-                    className="absolute inset-0 w-full h-full object-cover"
-                  />
-                </div>
-                <CardContent className="p-6">
-                  <h3 className="text-xl font-bold mb-2">Next Cohort Starting Soon</h3>
-                  <p className="text-gray-600">
-                    Applications for our next mentorship cohort are now open. Selected participants will be notified two weeks before the program begins.
-                  </p>
-                </CardContent>
-              </Card>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* How It Works */}
       <section className="py-16 bg-gray-50">
@@ -100,7 +50,7 @@ const Mentorship = () => {
               Our streamlined process makes it easy to get matched with a mentor and start learning.
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="w-16 h-16 bg-satoshi-orange text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">1</div>
@@ -109,7 +59,7 @@ const Mentorship = () => {
                 Fill out our application form sharing your background, interests, and goals for the mentorship.
               </p>
             </div>
-            
+
             <div className="text-center">
               <div className="w-16 h-16 bg-satoshi-orange text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">2</div>
               <h3 className="text-xl font-semibold mb-2">Match</h3>
@@ -117,7 +67,7 @@ const Mentorship = () => {
                 We'll review your application and match you with a mentor based on your interests and goals.
               </p>
             </div>
-            
+
             <div className="text-center">
               <div className="w-16 h-16 bg-satoshi-orange text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">3</div>
               <h3 className="text-xl font-semibold mb-2">Connect</h3>
@@ -125,7 +75,7 @@ const Mentorship = () => {
                 Meet with your mentor to establish goals, expectations, and a schedule for your month together.
               </p>
             </div>
-            
+
             <div className="text-center">
               <div className="w-16 h-16 bg-satoshi-orange text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">4</div>
               <h3 className="text-xl font-semibold mb-2">Learn</h3>
@@ -143,7 +93,7 @@ const Mentorship = () => {
           <div className="grid md:grid-cols-2 gap-12">
             <div>
               <h2 className="text-3xl font-bold mb-6">What to Expect</h2>
-              
+
               <div className="space-y-6">
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h3 className="text-xl font-semibold mb-2">Program Duration</h3>
@@ -151,21 +101,21 @@ const Mentorship = () => {
                     The mentorship lasts exactly one month, with a clear start and end date. This focused timeframe ensures both mentors and mentees can fully commit to the program.
                   </p>
                 </div>
-                
+
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h3 className="text-xl font-semibold mb-2">Meeting Frequency</h3>
                   <p className="text-gray-600">
                     You'll meet with your mentor once per week, typically for 30-60 minutes, either virtually or in-person if both parties are in Chicago.
                   </p>
                 </div>
-                
+
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h3 className="text-xl font-semibold mb-2">Structured Learning</h3>
                   <p className="text-gray-600">
                     Your mentor will help you establish clear goals for the month and provide guidance, resources, and feedback to help you achieve them.
                   </p>
                 </div>
-                
+
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h3 className="text-xl font-semibold mb-2">Community Support</h3>
                   <p className="text-gray-600">
@@ -174,10 +124,10 @@ const Mentorship = () => {
                 </div>
               </div>
             </div>
-            
+
             <div>
               <h2 className="text-3xl font-bold mb-6">Mentee Expectations</h2>
-              
+
               <ul className="space-y-4">
                 <li className="flex items-start">
                   <div className="bg-satoshi-orange rounded-full p-1 mr-3 mt-1">
@@ -189,7 +139,7 @@ const Mentorship = () => {
                     <span className="font-semibold text-gray-900">Be Prepared:</span> Come to meetings having done any agreed-upon work and with questions ready.
                   </p>
                 </li>
-                
+
                 <li className="flex items-start">
                   <div className="bg-satoshi-orange rounded-full p-1 mr-3 mt-1">
                     <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -200,7 +150,7 @@ const Mentorship = () => {
                     <span className="font-semibold text-gray-900">Be Punctual:</span> Respect your mentor's time by arriving to meetings promptly and communicating any scheduling issues in advance.
                   </p>
                 </li>
-                
+
                 <li className="flex items-start">
                   <div className="bg-satoshi-orange rounded-full p-1 mr-3 mt-1">
                     <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -211,7 +161,7 @@ const Mentorship = () => {
                     <span className="font-semibold text-gray-900">Be Engaged:</span> Actively participate in discussions, ask questions, and follow through on suggestions and resources provided by your mentor.
                   </p>
                 </li>
-                
+
                 <li className="flex items-start">
                   <div className="bg-satoshi-orange rounded-full p-1 mr-3 mt-1">
                     <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -222,7 +172,7 @@ const Mentorship = () => {
                     <span className="font-semibold text-gray-900">Be Respectful:</span> Value the guidance and expertise of your mentor, even if you have different perspectives.
                   </p>
                 </li>
-                
+
                 <li className="flex items-start">
                   <div className="bg-satoshi-orange rounded-full p-1 mr-3 mt-1">
                     <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -234,15 +184,15 @@ const Mentorship = () => {
                   </p>
                 </li>
               </ul>
-              
+
               <div className="mt-8 p-6 bg-gray-900 text-white rounded-lg">
                 <h3 className="text-xl font-semibold mb-3">Ready to Apply?</h3>
                 <p className="mb-4">
                   Applications for our next cohort are now open. Click the button below to fill out our JotForm application.
                 </p>
-                <a 
-                  href="https://www.jotform.com" 
-                  target="_blank" 
+                <a
+                  href="https://www.jotform.com"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-satoshi-orange text-white px-6 py-2 rounded-md hover:bg-orange-600 transition-colors"
                 >
@@ -263,7 +213,7 @@ const Mentorship = () => {
               Find answers to common questions about our micro mentorship program.
             </p>
           </div>
-          
+
           <div className="max-w-3xl mx-auto">
             <Accordion type="single" collapsible className="w-full">
               {faqs.map((faq, index) => (
@@ -278,7 +228,7 @@ const Mentorship = () => {
           </div>
         </div>
       </section>
-      
+
       {/* CTA Section */}
       <section className="py-16 bg-satoshi-orange text-white">
         <div className="container mx-auto px-4 md:px-6 text-center">
@@ -287,9 +237,9 @@ const Mentorship = () => {
             Join our micro mentorship program and get personalized guidance from experienced professionals in the blockchain space.
           </p>
           <div className="flex justify-center">
-            <a 
-              href="https://www.jotform.com" 
-              target="_blank" 
+            <a
+              href="https://www.jotform.com"
+              target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-satoshi-orange px-8 py-3 rounded-md font-medium text-lg hover:bg-gray-100 transition-colors"
             >

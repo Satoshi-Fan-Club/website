@@ -6,68 +6,37 @@ import { Card, CardContent } from '@/components/ui/card';
 const About = () => {
   const boardMembers = [
     {
-      name: "Jane Smith",
-      role: "President",
-      bio: "Blockchain technology advocate with over 10 years of experience in the financial industry.",
-      image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&q=80&w=400&h=400"
+      name: "Mabel Oza",
+      role: "Co-Founder",
+      bio: "Founder of ChaChing Social, Blockchain professor at the University of Illinois at Chicago, and former blockchain engineer.",
+      image: "https://media.licdn.com/dms/image/v2/D5603AQFf6tZT3PF5cw/profile-displayphoto-shrink_800_800/B56ZZRY4rWHQAc-/0/1745122201181?e=1750896000&v=beta&t=ehUKfzjXx7wpHo8wDHe1FiRsd07yhCM5FaHDnnuWYws"
     },
     {
-      name: "Michael Johnson",
-      role: "Vice President",
+      name: "Ann Marie Alanes",
+      role: "Co-Founder",
       bio: "Ethereum developer and community builder, passionate about decentralized finance.",
-      image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=400&h=400"
+      image: "https://media.licdn.com/dms/image/v2/C5603AQGlFbhSNUIyjg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1629784608286?e=2147483647&v=beta&t=_bOyaYSp3G5qvfp8JN0WLaoGFYtsuE_ATK0Tg6ReP2E"
     },
     {
-      name: "Sarah Williams",
-      role: "Treasurer",
+      name: "Emily Landon",
+      role: "Board Member",
       bio: "Financial advisor specializing in cryptocurrency investments and blockchain adoption.",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=400&h=400"
+      image: "https://pbs.twimg.com/profile_images/1880079144794382336/IzWjvdLS_400x400.jpg"
     },
     {
-      name: "David Chen",
-      role: "Secretary",
+      name: "Alex Nova",
+      role: "Board Member",
       bio: "Tech entrepreneur with multiple successful Web3 startups in the Chicago area.",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80&w=400&h=400"
+      image: "https://pbs.twimg.com/profile_images/1507808450499137538/VmAGPjFC_400x400.jpg"
     },
   ];
 
   return (
     <Layout>
-      <PageHeader 
-        title="About Satoshi Fan Club" 
-        subtitle="A blockchain agnostic community in Chicago since 2019"
+      <PageHeader
+        title="About Satoshi Fan Club"
+        subtitle="Building and supporting the blockchain ecosystem in Chicago."
       />
-
-      {/* Our Story Section */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4 md:px-6">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl font-bold mb-6">Our Story</h2>
-              <div className="prose prose-lg max-w-none">
-                <p className="mb-4">
-                  Founded in 2019, the Satoshi Fan Club began as a small group of blockchain enthusiasts meeting at a local Chicago coffee shop. What started as informal discussions about Bitcoin and other cryptocurrencies quickly evolved into a structured community dedicated to blockchain education and adoption.
-                </p>
-                <p className="mb-4">
-                  As interest in blockchain technology grew throughout Chicago, so did our community. We remained committed to being blockchain agnostic, recognizing that the future of Web3 would be multichain and interconnected. This inclusive approach helped us attract members from various backgrounds and with diverse interests in the blockchain space.
-                </p>
-                <p>
-                  Today, the Satoshi Fan Club stands as one of Chicago's leading blockchain communities, hosting regular events, providing educational resources, and connecting enthusiasts, developers, and entrepreneurs throughout the city's growing Web3 ecosystem.
-                </p>
-              </div>
-            </div>
-            <div className="order-first md:order-last">
-              <div className="aspect-square bg-gray-100 rounded-lg overflow-hidden relative">
-                <img 
-                  src="/lovable-uploads/b4f96609-8374-406d-ad98-acb5490d6078.png"
-                  alt="Satoshi Fan Club Logo" 
-                  className="absolute inset-0 object-contain p-12"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Mission & Values Section */}
       <section className="py-16 bg-gray-50">
@@ -78,7 +47,7 @@ const About = () => {
               We're committed to building a thriving blockchain ecosystem in Chicago through education, collaboration, and innovation.
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="hover:shadow-lg transition-shadow">
               <CardContent className="pt-6">
@@ -90,7 +59,7 @@ const About = () => {
                 </div>
               </CardContent>
             </Card>
-            
+
             <Card className="hover:shadow-lg transition-shadow">
               <CardContent className="pt-6">
                 <div className="flex flex-col items-center text-center">
@@ -101,7 +70,7 @@ const About = () => {
                 </div>
               </CardContent>
             </Card>
-            
+
             <Card className="hover:shadow-lg transition-shadow">
               <CardContent className="pt-6">
                 <div className="flex flex-col items-center text-center">
@@ -116,6 +85,40 @@ const About = () => {
         </div>
       </section>
 
+      {/* Our Story Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4 md:px-6">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-3xl font-bold mb-6">Our Story</h2>
+              <div className="prose prose-lg max-w-none">
+                <p className="mb-4">
+                  Ann Marie and Mabel fell into the rabbit hole of blockchain around 2015 in San Francisco through grassroot initiatives like Starfish Mission. They never knew each other in San Francisco and randomly connected at the Crypto Art field trip Ann Marie organized. Since then, they’ve been passionate about spreading blockchain education throughout Chicago.
+                  </p>
+                <p className="mb-4">
+                  The organization comes from humble beginnings—we started out in a classroom at Douglas Hall at the University of Illinois at Chicago, promoting our very first events with campus flyers.
+                </p>
+                <p className="mb-4">
+                  Since then we’ve moved around the city connecting with several web3 and technology initiatives and web3 leaders (including our current board members, Alex and Emily).
+                </p>
+                <p className="mb-4">
+                  Our mission is to create a blockchain agnostic community in Chicago that welcomes everyone, regardless of their background or experience level. We believe that blockchain technology has the potential to transform industries and improve lives, and we want to be at the forefront of that change.
+                </p>
+              </div>
+            </div>
+            <div className="order-first md:order-last">
+              <div className="aspect-square bg-gray-100 rounded-lg overflow-hidden relative">
+                <img
+                  src="/sfc-group.jpg"
+                  alt="Satoshi Fan Club Group Picture"
+                  className="absolute inset-0 object-contain p-12"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Board Members Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 md:px-6">
@@ -125,14 +128,14 @@ const About = () => {
               Meet the dedicated individuals who lead the Satoshi Fan Club and drive our mission forward.
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {boardMembers.map((member, index) => (
               <Card key={index} className="hover:shadow-lg transition-shadow overflow-hidden">
                 <div className="aspect-square relative">
-                  <img 
-                    src={member.image} 
-                    alt={member.name} 
+                  <img
+                    src={member.image}
+                    alt={member.name}
                     className="absolute inset-0 w-full h-full object-cover"
                   />
                 </div>
@@ -146,69 +149,73 @@ const About = () => {
           </div>
         </div>
       </section>
-      
-      {/* Community Values Section */}
+
+      {/* Newsletter Section */}
       <section className="py-16 bg-gray-900 text-white">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold mb-6">Our Community Values</h2>
-              <ul className="space-y-4">
-                <li className="flex items-start">
-                  <div className="bg-satoshi-orange rounded-full p-1 mr-3 mt-1">
-                    <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-lg">Inclusivity</h3>
-                    <p className="text-gray-300">We welcome members from all backgrounds, skill levels, and interests in the blockchain space.</p>
-                  </div>
-                </li>
-                <li className="flex items-start">
-                  <div className="bg-satoshi-orange rounded-full p-1 mr-3 mt-1">
-                    <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-lg">Collaboration</h3>
-                    <p className="text-gray-300">We believe in working together to solve problems and advance blockchain adoption.</p>
-                  </div>
-                </li>
-                <li className="flex items-start">
-                  <div className="bg-satoshi-orange rounded-full p-1 mr-3 mt-1">
-                    <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-lg">Innovation</h3>
-                    <p className="text-gray-300">We encourage experimentation and forward-thinking approaches to blockchain technology.</p>
-                  </div>
-                </li>
-                <li className="flex items-start">
-                  <div className="bg-satoshi-orange rounded-full p-1 mr-3 mt-1">
-                    <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-lg">Education</h3>
-                    <p className="text-gray-300">We're committed to continuous learning and sharing knowledge with our community.</p>
-                  </div>
-                </li>
-              </ul>
+              <h2 className="text-3xl font-bold mb-4">Stay Updated with Our Newsletter</h2>
+              <p className="text-gray-300 mb-6">
+                Subscribe to receive updates on new resources, upcoming events, and blockchain trends directly in your inbox.
+              </p>
+              <form className="space-y-4">
+                <div>
+                  <input
+                      type="email"
+                      placeholder="Your email address"
+                      className="w-full px-4 py-2 rounded-md bg-gray-800 border border-gray-700 focus:outline-none focus:border-satoshi-orange"
+                      required
+                  />
+                </div>
+                <div>
+                  <button
+                      type="submit"
+                      className="bg-satoshi-orange text-white px-6 py-2 rounded-md hover:bg-orange-600 transition-colors"
+                  >
+                    Subscribe
+                  </button>
+                </div>
+              </form>
             </div>
-            <div className="order-first md:order-last flex justify-center">
-              <div className="max-w-md p-8 bg-white bg-opacity-10 rounded-lg backdrop-blur-sm">
-                <h3 className="text-2xl font-bold mb-4 text-satoshi-orange">All Chains Welcome</h3>
-                <p className="mb-6 text-gray-100">
-                  At Satoshi Fan Club, we embrace the diversity of blockchain technologies and believe in a multichain future. Our community brings together enthusiasts from across the ecosystem—Bitcoin, Ethereum, Solana, Polkadot, and beyond.
-                </p>
-                <p className="text-gray-100">
-                  No matter which blockchain technology interests you, you'll find support, resources, and like-minded individuals in our community.
-                </p>
+            <div className="order-first md:order-last">
+              <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-8 rounded-lg border border-gray-700">
+                <h3 className="text-xl font-semibold mb-4">Resource Highlights</h3>
+                <ul className="space-y-4">
+                  <li className="flex items-start">
+                    <div className="bg-satoshi-orange rounded-full p-1 mr-3 mt-1">
+                      <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 className="font-medium">Weekly Educational Content</h4>
+                      <p className="text-sm text-gray-400">Articles and guides on blockchain topics</p>
+                    </div>
+                  </li>
+                  <li className="flex items-start">
+                    <div className="bg-satoshi-orange rounded-full p-1 mr-3 mt-1">
+                      <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 className="font-medium">Event Announcements</h4>
+                      <p className="text-sm text-gray-400">Be the first to know about upcoming events</p>
+                    </div>
+                  </li>
+                  <li className="flex items-start">
+                    <div className="bg-satoshi-orange rounded-full p-1 mr-3 mt-1">
+                      <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 className="font-medium">Exclusive Content</h4>
+                      <p className="text-sm text-gray-400">Resources only available to subscribers</p>
+                    </div>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>

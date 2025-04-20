@@ -135,8 +135,8 @@ const Resources = () => {
 
   return (
     <Layout>
-      <PageHeader 
-        title="Resources" 
+      <PageHeader
+        title="Resources"
         subtitle="Educational materials and community resources for blockchain enthusiasts"
       />
 
@@ -149,7 +149,7 @@ const Resources = () => {
                 <TabsTrigger value="chicago" className="px-6">Chicago Web3 Community</TabsTrigger>
               </TabsList>
             </div>
-            
+
             <TabsContent value="blockchain">
               <div className="space-y-12">
                 <div>
@@ -157,7 +157,7 @@ const Resources = () => {
                   <p className="text-lg text-gray-600 mb-8">
                     Explore our curated collection of resources to learn about blockchain technology, cryptocurrencies, and Web3 development.
                   </p>
-                  
+
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {blockchainResources.map((resource, index) => (
                       <Card key={index} className="hover:shadow-md transition-shadow">
@@ -169,10 +169,10 @@ const Resources = () => {
                             <div>
                               <h3 className="font-semibold text-lg mb-2">{resource.title}</h3>
                               <p className="text-gray-600 text-sm mb-3">{resource.description}</p>
-                              <a 
-                                href={resource.url} 
-                                target="_blank" 
-                                rel="noopener noreferrer" 
+                              <a
+                                href={resource.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="inline-flex items-center text-satoshi-orange hover:underline"
                               >
                                 <span>Visit Resource</span>
@@ -200,9 +200,9 @@ const Resources = () => {
                             .filter(r => r.category === 'fundamentals')
                             .map((resource, index) => (
                               <li key={index}>
-                                <a 
-                                  href={resource.url} 
-                                  target="_blank" 
+                                <a
+                                  href={resource.url}
+                                  target="_blank"
                                   rel="noopener noreferrer"
                                   className="text-satoshi-orange hover:underline"
                                 >
@@ -225,9 +225,9 @@ const Resources = () => {
                             .filter(r => r.category === 'learning')
                             .map((resource, index) => (
                               <li key={index}>
-                                <a 
-                                  href={resource.url} 
-                                  target="_blank" 
+                                <a
+                                  href={resource.url}
+                                  target="_blank"
                                   rel="noopener noreferrer"
                                   className="text-satoshi-orange hover:underline"
                                 >
@@ -250,9 +250,9 @@ const Resources = () => {
                             .filter(r => r.category === 'tools')
                             .map((resource, index) => (
                               <li key={index}>
-                                <a 
-                                  href={resource.url} 
-                                  target="_blank" 
+                                <a
+                                  href={resource.url}
+                                  target="_blank"
                                   rel="noopener noreferrer"
                                   className="text-satoshi-orange hover:underline"
                                 >
@@ -280,7 +280,7 @@ const Resources = () => {
                 </div>
               </div>
             </TabsContent>
-            
+
             <TabsContent value="chicago">
               <div className="space-y-12">
                 <div>
@@ -288,7 +288,7 @@ const Resources = () => {
                   <p className="text-lg text-gray-600 mb-8">
                     Connect with blockchain organizations, events, and initiatives in the Chicago area.
                   </p>
-                  
+
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {chicagoResources.map((resource, index) => (
                       <Card key={index} className="hover:shadow-md transition-shadow">
@@ -305,10 +305,10 @@ const Resources = () => {
                                 </span>
                               </div>
                               <p className="text-gray-600 text-sm mb-3">{resource.description}</p>
-                              <a 
-                                href={resource.url} 
-                                target="_blank" 
-                                rel="noopener noreferrer" 
+                              <a
+                                href={resource.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="inline-flex items-center text-satoshi-orange hover:underline"
                               >
                                 <span>Visit Website</span>
@@ -414,9 +414,9 @@ const Resources = () => {
                         <p className="text-gray-600 mb-4">
                           Opportunities in blockchain and Web3 at Chicago companies and remote positions.
                         </p>
-                        <a 
-                          href="https://www.web3.career/chicago-web3-jobs" 
-                          target="_blank" 
+                        <a
+                          href="https://www.web3.career/chicago-web3-jobs"
+                          target="_blank"
                           rel="noopener noreferrer"
                           className="text-satoshi-orange hover:underline inline-flex items-center"
                         >
@@ -430,78 +430,6 @@ const Resources = () => {
               </div>
             </TabsContent>
           </Tabs>
-        </div>
-      </section>
-      
-      {/* Newsletter Section */}
-      <section className="py-16 bg-gray-900 text-white">
-        <div className="container mx-auto px-4 md:px-6">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl font-bold mb-4">Stay Updated with Our Newsletter</h2>
-              <p className="text-gray-300 mb-6">
-                Subscribe to receive updates on new resources, upcoming events, and blockchain trends directly in your inbox.
-              </p>
-              <form className="space-y-4">
-                <div>
-                  <input 
-                    type="email" 
-                    placeholder="Your email address" 
-                    className="w-full px-4 py-2 rounded-md bg-gray-800 border border-gray-700 focus:outline-none focus:border-satoshi-orange"
-                    required 
-                  />
-                </div>
-                <div>
-                  <button 
-                    type="submit" 
-                    className="bg-satoshi-orange text-white px-6 py-2 rounded-md hover:bg-orange-600 transition-colors"
-                  >
-                    Subscribe
-                  </button>
-                </div>
-              </form>
-            </div>
-            <div className="order-first md:order-last">
-              <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-8 rounded-lg border border-gray-700">
-                <h3 className="text-xl font-semibold mb-4">Resource Highlights</h3>
-                <ul className="space-y-4">
-                  <li className="flex items-start">
-                    <div className="bg-satoshi-orange rounded-full p-1 mr-3 mt-1">
-                      <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
-                    </div>
-                    <div>
-                      <h4 className="font-medium">Weekly Educational Content</h4>
-                      <p className="text-sm text-gray-400">Articles and guides on blockchain topics</p>
-                    </div>
-                  </li>
-                  <li className="flex items-start">
-                    <div className="bg-satoshi-orange rounded-full p-1 mr-3 mt-1">
-                      <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
-                    </div>
-                    <div>
-                      <h4 className="font-medium">Event Announcements</h4>
-                      <p className="text-sm text-gray-400">Be the first to know about upcoming events</p>
-                    </div>
-                  </li>
-                  <li className="flex items-start">
-                    <div className="bg-satoshi-orange rounded-full p-1 mr-3 mt-1">
-                      <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
-                    </div>
-                    <div>
-                      <h4 className="font-medium">Exclusive Content</h4>
-                      <p className="text-sm text-gray-400">Resources only available to subscribers</p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
     </Layout>

@@ -45,7 +45,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold text-white mb-4">Navigation</h3>
             <ul className="space-y-2">
@@ -57,40 +57,18 @@ const Footer = () => {
               <li><Link to="/events" className="hover:text-satoshi-orange transition-colors">Events</Link></li>
             </ul>
           </div>
-          
-          <div>
-            <h3 className="text-lg font-semibold text-white mb-4">Contact</h3>
-            <ul className="space-y-3">
-              <li className="flex items-center">
-                <Mail className="h-5 w-5 mr-2 text-satoshi-orange" />
-                <a href="mailto:info@satoshifanclub.org" className="hover:text-satoshi-orange transition-colors">info@satoshifanclub.org</a>
-              </li>
-              <li className="flex items-center">
-                <Globe className="h-5 w-5 mr-2 text-satoshi-orange" />
-                <span>Chicago, IL</span>
-              </li>
-              <li className="flex items-center">
-                <Calendar className="h-5 w-5 mr-2 text-satoshi-orange" />
-                <span>Est. 2019</span>
-              </li>
-              <li className="flex items-center">
-                <MessageSquare className="h-5 w-5 mr-2 text-satoshi-orange" />
-                <a href="https://discord.com" target="_blank" rel="noopener noreferrer" className="hover:text-satoshi-orange transition-colors">Join our Discord</a>
-              </li>
-            </ul>
-          </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold text-white mb-4">Newsletter</h3>
             <p className="mb-4">Subscribe to our newsletter for the latest updates on events, resources, and blockchain news.</p>
             <form className="flex flex-col sm:flex-row gap-2">
-              <input 
-                type="email" 
-                placeholder="Your email" 
+              <input
+                type="email"
+                placeholder="Your email"
                 className="px-4 py-2 rounded-md bg-gray-800 border border-gray-700 focus:outline-none focus:border-satoshi-orange"
                 required
               />
-              <button 
+              <button
                 type="submit"
                 className="bg-satoshi-orange text-white px-4 py-2 rounded-md hover:bg-orange-600 transition-colors"
               >
@@ -99,7 +77,7 @@ const Footer = () => {
             </form>
           </div>
         </div>
-        
+
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
           <p>© {currentYear} Satoshi Fan Club. All rights reserved.</p>
         </div>
