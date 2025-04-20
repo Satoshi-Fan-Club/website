@@ -15,7 +15,7 @@ const Index = () => {
                 Chicago's Blockchain Agnostic Community
               </h1>
               <p className="text-xl md:text-2xl text-gray-800">
-                Educating, Connecting, and Supporting the Web3 Ecosystem in Chicago Since 2019
+                Educating and Supporting the Chicago Web3 Ecosystem
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link to="/about">
