@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
 import Layout from '@/components/Layout';
+import { Link } from 'react-router-dom';
 import SatoshiButton from '@/components/SatoshiButton';
 import { Card, CardContent } from '@/components/ui/card';
 import { Calendar, Book, Users, Globe, Building, MessageSquare } from 'lucide-react';
@@ -14,7 +14,7 @@ const Index = () => {
               <h1 className="text-4xl md:text-6xl font-bold leading-tight">
                 Chicago's Blockchain Agnostic Community
               </h1>
-              <p className="text-xl md:text-2xl text-gray-300">
+              <p className="text-xl md:text-2xl text-gray-800">
                 Educating, Connecting, and Supporting the Web3 Ecosystem in Chicago Since 2019
               </p>
               <div className="flex flex-wrap gap-4">
@@ -34,14 +34,12 @@ const Index = () => {
           </div>
         </div>
         
-        {/* Background decorative elements */}
         <div className="absolute inset-0 overflow-hidden opacity-10 bg-red-600">
           <div className="absolute top-10 left-10 w-64 h-64 rounded-full bg-satoshi-orange blur-3xl"></div>
           <div className="absolute bottom-10 right-10 w-64 h-64 rounded-full bg-satoshi-orange blur-3xl"></div>
         </div>
       </section>
 
-      {/* About Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center mb-12">
@@ -104,7 +102,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Programs Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center mb-12">
@@ -148,7 +145,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Resources & Companies Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -200,7 +196,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
       <section className="bg-satoshi-orange py-16">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Ready to Join the Satoshi Fan Club?</h2>
