@@ -22,9 +22,7 @@ const Index = () => {
                   <SatoshiButton>Learn More</SatoshiButton>
                 </Link>
                 <Link to="/events">
-                  <SatoshiButton variant="outline" className="bg-transparent border border-white hover:bg-white hover:text-black">
-                    Upcoming Events
-                  </SatoshiButton>
+                  <SatoshiButton>Upcoming Events</SatoshiButton>
                 </Link>
               </div>
             </div>
