@@ -3,10 +3,11 @@ import Layout from '@/components/Layout';
 import SatoshiButton from '@/components/SatoshiButton';
 import { Card, CardContent } from '@/components/ui/card';
 import { Calendar, Book, Users, Globe, Building, MessageSquare } from 'lucide-react';
+
 const Index = () => {
   return <Layout>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-gray-900 to-black text-white py-16 md:py-24 overflow-hidden relative">
+      <section className="bg-yellow-300 text-black py-16 md:py-24 overflow-hidden relative">
         <div className="container mx-auto px-4 md:px-6 relative z-10">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 md:pr-8">
